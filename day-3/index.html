@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table with Few Tags </title>
+</head>
+<body>
+    <table border="1" height="1200" width="900" >
+        <tr height="100">
+            <td width="200"></td>
+            <td colspan="2" width="700"></td>
+        </tr>
+        <tr height="1000">
+            <td colspan="2" width="700">
+                <table border="1" height="1000" width="800" >
+                    <tr height="500">
+                        <td width="800">
+                            <h3 style="font-size: 35px; text-align: center;">Learn somting new</h3>
+                            <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="img/bitm.png" alt="BITM">
+                            <p style="font-size: 20px; text-align: center; padding: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vero nobis illum expedita unde saepe mollitia quaerat, perferendis quas error provident magnam molestiae natus asperiores culpa deleniti odit? A, sint.</p>
+                        </td>
+                    </tr>
+                    <tr heigth="500">
+                        <td width="800">
+                            <h3 style="font-size: 25px; text-align: center;" >Application Form</h3>
+                            <form action="">
+                                <table border="0" height="450" width="800" style="border-spacing: 50px 0;">
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="name" placeholder="Name" style="width: 100%;" required>
+                                        </td>
+                                        <td>
+                                            <input type="text" name="roll" placeholder="Roll" style="width: 100%;" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="reg" placeholder="Reg" style="width: 100%;" required>
+                                        </td>
+                                        <td>
+                                            <label> Department</label>
+                                            <select name="department"  required>
+                                                <option value="" disabled selected>Department</option>
+                                                <option value="CMT">CMT</option>
+                                                <option value="CST">CST</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Semester 
+                                            <select name="semester" required>
+                                                <option value="" disabled selected>Semester</option>
+                                                <option value="1st">1st</option>
+                                                <option value="2nd">2nd</option>
+                                                <option value="3rd">3rd</option>
+                                                <option value="4th">4th</option>
+                                                <option value="5th">5th</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            Shift 
+                                            <select name="shift"  required>
+                                                <option value="" disabled selected>Shift</option>
+                                                <option value="Day">Day</option>
+                                                <option value="Morning">Morning</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Session 
+                                            <select name="session" required>
+                                                <option value="" disabled selected>Session</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2024">2024</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <input type="tel" name="mobile" placeholder="Mobile" style="width: 100%;" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="email" name="email" placeholder="Email" style="width: 100%;" required>
+                                        </td>
+                                        <td>
+                                            Date of Birth
+                                            <input type="date" name="dob" placeholder="Date of Birth"  required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="address" placeholder="Address" style="width: 100%;" required>
+                                        </td>
+                                        <td>
+                                            Gender 
+                                            <select name="sex" required>
+                                                <option value="" disabled selected>Gender</option>
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            Passed Exam: <label><input type="checkbox" name="passed_exam[]" value="SSC"> SSC</label>
+                                            <label><input type="checkbox" name="passed_exam[]" value="HSC"> HSC</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <button type="reset">Reset</button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <button type="submit">Submit</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="100"></td>
+        </tr>
+        <tr height="100">
+            <td colspan="3"></td>
+        </tr>
+    </table>
+</body>
+</html>
