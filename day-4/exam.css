@@ -1,0 +1,32 @@
+.div-1{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    background-color: green;
+    margin: 10px;
+    float: left;
+}
+.div-2{
+    height: 250px;
+    width: 250px;
+    border: 1px solid red;
+    background-color: red;
+    margin: 10px;
+    float: left;
+}
+.div-3{
+    height: 250px;
+    width: 250px;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 10px;
+    float: left;
+}
+.div-4{
+    height: 250px;
+    width: 250px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    margin: 10px;
+    float: left;
+}
