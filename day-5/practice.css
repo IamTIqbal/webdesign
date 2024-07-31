@@ -1,0 +1,121 @@
+body{
+    min-height: 720px;
+    width: 1080px;
+}
+.main-div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    width: 94%;
+    margin: 5px auto;
+    text-align: center;
+}
+.header .logo{
+    width: 10%;
+}
+.header .logo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header .title{
+    width: 80%;  
+    padding: 0 auto;
+}
+.header .title h3, .header .title p{
+    margin: 5px;
+}
+.main-container{
+    width: 95%;
+    margin: 5px auto;
+    min-height: 550px;
+}
+.nav-header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.nav-header ui li{
+    display: inline;
+    padding: 0px 10px;
+}
+.nav-header ui li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+}
+.container{
+    display: flex;
+    min-height: 500px;
+    padding-top: 20px;
+}
+.container .sidebar{
+    width: 20%;
+}
+.container .sidebar .feature{
+    height: 200px;
+}
+.container .sidebar .feature .feature-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.container .sidebar .feature h3{
+    font-size: 15px;
+    text-align: center;
+    margin: 2px;
+}
+.container .sidebar .feature a{
+    text-decoration: none;
+    color: black;
+}
+.container .sidebar .feature .feature-button{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container .containt{
+    width: 60%;
+}
+.container .containt .containt-img{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.container .containt h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+.container .containt p{
+    font-size: 16px;
+    padding: 0px 20px;
+    text-align: justify;
+}
+.footer-section{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer-section .footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 16px;  
+}

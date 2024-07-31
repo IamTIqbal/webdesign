@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 5px;
+}
+.wrapper{
+    height: 800px;
+    width: 600px;
+    border: 1px solid white;
+    margin: auto;
+}
+.row-1{
+    height: 100px;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+.row-2{
+    height: 650px;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+.row-3{
+    height: 50px;
+}
+.row-1 .logo{
+    width: 150px;
+}
+.row-1 .title{
+    width: 450px;
+}
+.row-1 .logo .bitm-logo{
+    margin: auto;
+    display: block;
+}
+.row-2 .sidebar{
+    width: 100px;
+}
+.row-2 .container{
+    width: 500px;
+    border-left: 1px solid white;
+}
